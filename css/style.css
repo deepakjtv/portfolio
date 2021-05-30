@@ -1,0 +1,186 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background: #86c232;
+}
+
+.background_img {
+    background: #222629;
+    width: 90vw;
+    height: 90vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+}
+
+
+/* nav start */
+
+.navbar-brand {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: Times New Roman;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+.navbar-brand span {
+    color: #0000ff;
+}
+
+.navbar-nav {
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.nav-item {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #86c232;
+    transition: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+.nav-item a:hover {
+    color: #61892f;
+}
+
+button span {
+    font-size: 4rem;
+    color: #86c232;
+}
+
+
+/* nav end */
+
+.container-1 {
+    height: 25rem;
+    width: 65rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.container-1 h4 {
+    font-size: 3rem;
+}
+
+.container-1 h2 {
+    font-size: 5rem;
+}
+
+.container-1 p {
+    font-size: 2.5rem;
+}
+
+.social {
+    float: left;
+    line-height: 1rem;
+}
+
+.container-1 ul {
+    list-style: none;
+    float: left;
+    line-height: 0rem;
+    padding: 0rem;
+}
+
+.container-1 ul li {
+    margin-left: 1rem;
+    display: inline-block;
+    margin-top: 0rem;
+}
+
+.container-1 p a,
+.container-1 ul li a {
+    color: #86c232;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+.container-1 ul li a {
+    font-size: 2rem;
+    margin-top: .5rem;
+}
+
+.container-1 p a:hover,
+.container-1 ul li a:hover {
+    color: #61892f;
+}
+
+
+/* footer start */
+
+.footer-div {
+    display: flex;
+}
+
+.footer-div h4 {
+    margin: auto;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.footer-div h4 a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+
+/* responsive start */
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+    .footer-div {
+        padding-top: 1.5rem;
+    }
+    .footer-div h4 {
+        font-size: 1.2rem;
+    }
+    .footer-div h4 a {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    html {
+        font-size: 35%;
+    }
+    .container-1 {
+        height: 50rem;
+        width: 40rem;
+    }
+    .container-1 h2 {
+        font-size: 5rem;
+    }
+    .container-1 p {
+        font-size: 2.3rem;
+    }
+}

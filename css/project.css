@@ -1,0 +1,98 @@
+.container-4 {
+    width: 90%;
+    height: 75%;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.carousel-inner {
+    padding: 0px 120px;
+}
+
+.title {
+    color: #86c232;
+}
+
+.project-det {
+    width: 64%;
+}
+
+img {
+    width: 25rem;
+    height: 15rem;
+}
+
+.button {
+    width: 30rem;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    margin-top: 4rem;
+}
+
+.button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    background-color: #61892f;
+}
+
+p {
+    font-size: 1.5rem;
+    padding: 0rem;
+}
+
+.project-info {
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.ctu {
+    display: inline-block;
+    width: 50rem;
+}
+
+.ctu h2 {
+    color: #86c232;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #86c232;
+}
+
+
+/* Responsive start */
+
+@media screen and (max-width:992px) {
+    .project-det {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container-4 {
+        width: 90%;
+        height: 60%;
+    }
+    .project-det {
+        width: 100%;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    html {
+        font-size: 40%;
+    }
+    .button {
+        position: relative;
+        display: block;
+    }
+}

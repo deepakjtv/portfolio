@@ -1,0 +1,44 @@
+.container-2 {
+    width: 90rem;
+    height: 30rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.container-2 p {
+    font-size: 2rem;
+}
+
+
+/* responsive start */
+
+@media screen and (max-width:992px) {
+    html {
+        font-size: 49%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container-2 {
+        width: 50rem;
+        height: 40rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    html {
+        font-size: 40%;
+    }
+    .container-2 {
+        height: 45rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    html {
+        font-size: 35%;
+    }
+}
